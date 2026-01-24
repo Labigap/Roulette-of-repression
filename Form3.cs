@@ -45,7 +45,7 @@ namespace RouletteOfRepression
             int BanIndex = Ban.Next(0, BanListApps.Length);
             BanToRoll = BanListApps[BanIndex];
             RollApp.Text = BanToRoll;
-            ZP += zp.Next(20000, 100000);
+            ZPV = false;
             spinmenu = false;
             spin = true;
         }
@@ -67,6 +67,14 @@ namespace RouletteOfRepression
 
         private void spinmenutim_Tick(object sender, EventArgs e)
         {
+            if (ForZPBan)
+            {
+                ZP = zp.Next(40000, 100000);
+            }
+            else if (ForZPSlow)
+            {
+                ZP = zp.Next(20000, 50000);
+            }
             if (spinmenu)
             {
                 RollApp.Visible = false;
@@ -85,7 +93,7 @@ namespace RouletteOfRepression
                 RollApp.Visible = true;
                 slowdownbtn.Visible = true;
                 banbtn.Visible = true;
-                whatban.Visible = false;
+                whatban.Visible = true;
                 Start.Visible = false;
                 Pay.Visible = false;
                 Contbtn.Visible = false;
@@ -95,6 +103,8 @@ namespace RouletteOfRepression
             }
             if (ZPV)
             {
+                ForZPBan = false;
+                ForZPSlow = false;
                 RollApp.Visible = false;
                 slowdownbtn.Visible = false;
                 banbtn.Visible = false;
@@ -120,15 +130,19 @@ namespace RouletteOfRepression
         public bool checkhslowdownbtn = false;
         public bool checkbanbtn = false;
         public bool ZPV = false;
+        public bool ForZPSlow = false;
+        public bool ForZPBan = false;
 
         private void slowdownbtn_Click(object sender, EventArgs e)
         {
             checkhslowdownbtn = true;
+            ForZPSlow = true;
         }
 
         private void banbtn_Click(object sender, EventArgs e)
         {
             checkbanbtn = true;
+            ForZPBan = true;
         }
 
         private void Contbtn_Click(object sender, EventArgs e)

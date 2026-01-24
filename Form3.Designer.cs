@@ -38,9 +38,9 @@
             this.banbtn = new System.Windows.Forms.Button();
             this.MenuExit = new System.Windows.Forms.Button();
             this.spinmenutim = new System.Windows.Forms.Timer(this.components);
-            this.spintim = new System.Windows.Forms.Timer(this.components);
             this.Pay = new System.Windows.Forms.Label();
             this.Contbtn = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.fonrkn)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,7 +60,7 @@
             this.Start.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Start.Font = new System.Drawing.Font("Tahoma", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Start.ForeColor = System.Drawing.Color.Black;
-            this.Start.Location = new System.Drawing.Point(538, 295);
+            this.Start.Location = new System.Drawing.Point(540, 295);
             this.Start.Name = "Start";
             this.Start.Size = new System.Drawing.Size(246, 82);
             this.Start.TabIndex = 1;
@@ -74,7 +74,7 @@
             this.whatban.BackColor = System.Drawing.Color.MidnightBlue;
             this.whatban.Font = new System.Drawing.Font("Microsoft YaHei UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.whatban.ForeColor = System.Drawing.Color.White;
-            this.whatban.Location = new System.Drawing.Point(330, 129);
+            this.whatban.Location = new System.Drawing.Point(330, 130);
             this.whatban.Name = "whatban";
             this.whatban.Size = new System.Drawing.Size(705, 64);
             this.whatban.TabIndex = 2;
@@ -83,9 +83,10 @@
             // RollApp
             // 
             this.RollApp.AutoSize = true;
-            this.RollApp.BackColor = System.Drawing.Color.LightPink;
+            this.RollApp.BackColor = System.Drawing.Color.Indigo;
             this.RollApp.Font = new System.Drawing.Font("Yu Gothic UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.RollApp.Location = new System.Drawing.Point(542, 205);
+            this.RollApp.ForeColor = System.Drawing.Color.Gainsboro;
+            this.RollApp.Location = new System.Drawing.Point(553, 215);
             this.RollApp.Name = "RollApp";
             this.RollApp.Size = new System.Drawing.Size(118, 65);
             this.RollApp.TabIndex = 4;
@@ -109,9 +110,9 @@
             this.banbtn.BackColor = System.Drawing.Color.Red;
             this.banbtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.banbtn.Font = new System.Drawing.Font("Times New Roman", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.banbtn.Location = new System.Drawing.Point(531, 412);
+            this.banbtn.Location = new System.Drawing.Point(524, 412);
             this.banbtn.Name = "banbtn";
-            this.banbtn.Size = new System.Drawing.Size(269, 64);
+            this.banbtn.Size = new System.Drawing.Size(276, 64);
             this.banbtn.TabIndex = 6;
             this.banbtn.Text = "Заблокировать ";
             this.banbtn.UseVisualStyleBackColor = false;
@@ -123,7 +124,7 @@
             this.MenuExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MenuExit.Font = new System.Drawing.Font("Microsoft YaHei", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.MenuExit.ForeColor = System.Drawing.Color.Snow;
-            this.MenuExit.Location = new System.Drawing.Point(583, 557);
+            this.MenuExit.Location = new System.Drawing.Point(580, 550);
             this.MenuExit.Name = "MenuExit";
             this.MenuExit.Size = new System.Drawing.Size(148, 68);
             this.MenuExit.TabIndex = 7;
@@ -137,14 +138,10 @@
             this.spinmenutim.Interval = 50;
             this.spinmenutim.Tick += new System.EventHandler(this.spinmenutim_Tick);
             // 
-            // spintim
-            // 
-            this.spintim.Interval = 50;
-            // 
             // Pay
             // 
             this.Pay.AutoSize = true;
-            this.Pay.BackColor = System.Drawing.Color.LimeGreen;
+            this.Pay.BackColor = System.Drawing.Color.LawnGreen;
             this.Pay.Font = new System.Drawing.Font("Nirmala UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Pay.ForeColor = System.Drawing.Color.Black;
             this.Pay.Location = new System.Drawing.Point(275, 181);
@@ -182,7 +179,7 @@
             this.Controls.Add(this.Start);
             this.Controls.Add(this.fonrkn);
             this.Name = "RKNRoll";
-            this.Text = "Form3";
+            this.Text = "Рулетка блокировок";
             this.Load += new System.EventHandler(this.RKNRoll_Load);
             ((System.ComponentModel.ISupportInitialize)(this.fonrkn)).EndInit();
             this.ResumeLayout(false);
@@ -200,8 +197,8 @@
         private System.Windows.Forms.Button banbtn;
         private System.Windows.Forms.Button MenuExit;
         private System.Windows.Forms.Timer spinmenutim;
-        private System.Windows.Forms.Timer spintim;
         private System.Windows.Forms.Label Pay;
         private System.Windows.Forms.Button Contbtn;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

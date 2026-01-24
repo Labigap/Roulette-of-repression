@@ -99,13 +99,14 @@
             this.DopBtn.Name = "DopBtn";
             this.DopBtn.Size = new System.Drawing.Size(500, 250);
             this.DopBtn.TabIndex = 13;
-            this.DopBtn.Text = "Дополнения";
+            this.DopBtn.Text = "Дополнительно";
             this.DopBtn.UseVisualStyleBackColor = false;
             this.DopBtn.Click += new System.EventHandler(this.DopBtn_Click);
             // 
             // arrestBtn
             // 
-            this.arrestBtn.BackColor = System.Drawing.Color.MediumBlue;
+            this.arrestBtn.BackColor = System.Drawing.Color.Transparent;
+            this.arrestBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("arrestBtn.BackgroundImage")));
             this.arrestBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.arrestBtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.arrestBtn.ForeColor = System.Drawing.SystemColors.ScrollBar;
@@ -129,7 +130,7 @@
             this.Controls.Add(this.rknbtn);
             this.Controls.Add(this.MenuFon);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Меню";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.MenuFon)).EndInit();
             this.ResumeLayout(false);

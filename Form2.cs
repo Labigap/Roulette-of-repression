@@ -33,12 +33,16 @@ namespace RouletteOfRepression
         {
             RollRKN = new RKNRoll();
             this.Hide();
-            RollRKN.Show();
+            RollRKN.ShowDialog();
         }
+
+        private ArrestRoll RollArrest;
 
         private void arrestBtn_Click(object sender, EventArgs e)
         {
-
+            RollArrest = new ArrestRoll();
+            this.Hide(); 
+            RollArrest.ShowDialog();
         }
 
         private void NKOBtn_Click(object sender, EventArgs e)

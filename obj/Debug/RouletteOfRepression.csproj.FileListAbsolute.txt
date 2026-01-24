@@ -10,3 +10,4 @@ C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.ex
 C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.pdb
 C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.Form2.resources
 C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.RKNRoll.resources
+C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.ArrestRoll.resources

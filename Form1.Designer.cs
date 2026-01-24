@@ -83,7 +83,7 @@
             this.Controls.Add(this.btnAccept);
             this.Controls.Add(this.pictureBox1);
             this.Name = "disclaimerForm";
-            this.Text = "Form1";
+            this.Text = "Дисклеймер";
             this.Load += new System.EventHandler(this.disclaimerForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
