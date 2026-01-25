@@ -1,0 +1,13 @@
+C:\Roulette Of Repression\RouletteOfRepression\bin\Debug\RouletteOfRepression.exe.config
+C:\Roulette Of Repression\RouletteOfRepression\bin\Debug\RouletteOfRepression.exe
+C:\Roulette Of Repression\RouletteOfRepression\bin\Debug\RouletteOfRepression.pdb
+C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.csproj.AssemblyReference.cache
+C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.disclaimerForm.resources
+C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.Properties.Resources.resources
+C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.csproj.GenerateResource.cache
+C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.csproj.CoreCompileInputs.cache
+C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.exe
+C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.pdb
+C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.Form2.resources
+C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.RKNRoll.resources
+C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.ArrestRoll.resources
