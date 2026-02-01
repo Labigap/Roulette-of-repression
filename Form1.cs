@@ -1,18 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading;
 using System.Windows.Forms;
 
 namespace RouletteOfRepression
 {
     public partial class disclaimerForm : Form
     {
-
         private void disclaimerForm_Load(object sender, EventArgs e)
         {
 
@@ -40,15 +32,15 @@ namespace RouletteOfRepression
                 Menu.ShowDialog();
             }
         }
-    }    
-    
-    public static class money 
-    {
-        private static string Money;
-        public static string moneyr
+
+        public static class money
         {
-            get { return Money; }
-            set { Money = value; }
+            private static string Money;
+            public static string moneyr
+            {
+                get { return Money; }
+                set { Money = value; }
+            }
         }
     }
 }

@@ -77,10 +77,11 @@
             // 
             // NKOBtn
             // 
-            this.NKOBtn.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.NKOBtn.BackColor = System.Drawing.Color.Transparent;
+            this.NKOBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("NKOBtn.BackgroundImage")));
             this.NKOBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NKOBtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 32.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NKOBtn.ForeColor = System.Drawing.Color.LightSteelBlue;
+            this.NKOBtn.ForeColor = System.Drawing.Color.Black;
             this.NKOBtn.Location = new System.Drawing.Point(92, 425);
             this.NKOBtn.Name = "NKOBtn";
             this.NKOBtn.Size = new System.Drawing.Size(500, 250);
@@ -91,7 +92,8 @@
             // 
             // DopBtn
             // 
-            this.DopBtn.BackColor = System.Drawing.Color.Maroon;
+            this.DopBtn.BackColor = System.Drawing.Color.Transparent;
+            this.DopBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("DopBtn.BackgroundImage")));
             this.DopBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DopBtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.DopBtn.ForeColor = System.Drawing.Color.LightSteelBlue;

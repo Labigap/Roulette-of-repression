@@ -1,14 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace RouletteOfRepression
 {
@@ -20,7 +11,7 @@ namespace RouletteOfRepression
             InitializeComponent();
         }
 
-        private string[] ArrestListPeople = { "Алексеем Навальным", "Юлией Навальной",  "Евгением Пригожиным",
+        private static readonly string[] ArrestListPeople = { "Алексеем Навальным", "Юлией Навальной",  "Евгением Пригожиным",
             /* Ютуберы */ "MyGap", "Майклом Наки", /* Ютуберы */ /* Депутаты */ "Львом Пономаревым", "Львом Марковичем", 
             "Максимом Кругловым", "Ильей Яшиным", "Евгением Боровиком" /* Депутаты */ };
 

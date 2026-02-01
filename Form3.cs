@@ -1,13 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Security.Permissions;
-using System.Security.Policy;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace RouletteOfRepression
@@ -36,7 +27,7 @@ namespace RouletteOfRepression
         private string BanToRoll;
         public int ZP = 0;
 
-        private string[] BanListApps = {"Youtube", "Instagramm", "Twitter", "Facebook", "Tiktok", "Telegram",
+        private static readonly string[] BanListApps = {"Youtube", "Instagramm", "Twitter", "Facebook", "Tiktok", "Telegram",
                 "Discord", "WatsApp", "Viber", "Twitch", "Snapchat", "Patreon", "Roblox", "FaceTime",
                 "Steam", "VPN", "ChatGPT" };
 
@@ -49,14 +40,6 @@ namespace RouletteOfRepression
             spinmenu = false;
             spin = true;
         }
-
-        public static string moneycount
-        {
-            get { return money.moneyr; }
-            set { money.moneyr = value; }
-        }
-
-        
 
         private void MenuExit_Click(object sender, EventArgs e)
         {

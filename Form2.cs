@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace RouletteOfRepression
@@ -45,9 +38,12 @@ namespace RouletteOfRepression
             RollArrest.ShowDialog();
         }
 
+        private NKORoll RollNKO;
         private void NKOBtn_Click(object sender, EventArgs e)
         {
-
+            RollNKO = new NKORoll();
+            this.Hide();
+            RollNKO.ShowDialog();
         }
 
         private void DopBtn_Click(object sender, EventArgs e)
