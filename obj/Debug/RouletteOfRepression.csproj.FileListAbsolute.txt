@@ -11,5 +11,4 @@ C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.pd
 C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.Form2.resources
 C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.RKNRoll.resources
 C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.ArrestRoll.resources
-C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.exe.config
 C:\Roulette Of Repression\RouletteOfRepression\obj\Debug\RouletteOfRepression.NKORoll.resources
