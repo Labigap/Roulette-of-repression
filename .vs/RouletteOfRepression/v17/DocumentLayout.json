@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Roulette Of Repression\\RouletteOfRepression\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37C5FEF6-A0EA-4E30-AB0F-57EDBA3CF827}|RouletteOfRepression.csproj|C:\\Roulette Of Repression\\RouletteOfRepression\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{37C5FEF6-A0EA-4E30-AB0F-57EDBA3CF827}|RouletteOfRepression.csproj|c:\\roulette of repression\\rouletteofrepression\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{37C5FEF6-A0EA-4E30-AB0F-57EDBA3CF827}|RouletteOfRepression.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37C5FEF6-A0EA-4E30-AB0F-57EDBA3CF827}|RouletteOfRepression.csproj|c:\\roulette of repression\\rouletteofrepression\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{37C5FEF6-A0EA-4E30-AB0F-57EDBA3CF827}|RouletteOfRepression.csproj|C:\\Roulette Of Repression\\RouletteOfRepression\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{37C5FEF6-A0EA-4E30-AB0F-57EDBA3CF827}|RouletteOfRepression.csproj|solutionrelative:form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37C5FEF6-A0EA-4E30-AB0F-57EDBA3CF827}|RouletteOfRepression.csproj|c:\\roulette of repression\\rouletteofrepression\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{37C5FEF6-A0EA-4E30-AB0F-57EDBA3CF827}|RouletteOfRepression.csproj|C:\\Roulette Of Repression\\RouletteOfRepression\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{37C5FEF6-A0EA-4E30-AB0F-57EDBA3CF827}|RouletteOfRepression.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37C5FEF6-A0EA-4E30-AB0F-57EDBA3CF827}|RouletteOfRepression.csproj|c:\\roulette of repression\\rouletteofrepression\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37C5FEF6-A0EA-4E30-AB0F-57EDBA3CF827}|RouletteOfRepression.csproj|C:\\Roulette Of Repression\\RouletteOfRepression\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37C5FEF6-A0EA-4E30-AB0F-57EDBA3CF827}|RouletteOfRepression.csproj|solutionrelative:form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37C5FEF6-A0EA-4E30-AB0F-57EDBA3CF827}|RouletteOfRepression.csproj|c:\\roulette of repression\\rouletteofrepression\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37C5FEF6-A0EA-4E30-AB0F-57EDBA3CF827}|RouletteOfRepression.csproj|C:\\Roulette Of Repression\\RouletteOfRepression\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37C5FEF6-A0EA-4E30-AB0F-57EDBA3CF827}|RouletteOfRepression.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -50,8 +50,7 @@
               "RelativeToolTip": "Form5.cs",
               "ViewState": "AgIAAGgAAAAAAAAAAADwvzQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T14:14:07.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-03T14:14:07.928Z"
             },
             {
               "$type": "Document",
@@ -62,8 +61,7 @@
               "ToolTip": "C:\\Roulette Of Repression\\RouletteOfRepression\\Form5.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Form5.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T14:14:04.696Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2026-02-03T14:14:04.696Z"
             },
             {
               "$type": "Document",
@@ -74,8 +72,7 @@
               "ToolTip": "C:\\Roulette Of Repression\\RouletteOfRepression\\Form6.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Form6.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T13:52:06.173Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2026-02-03T13:52:06.173Z"
             },
             {
               "$type": "Document",
@@ -87,8 +84,7 @@
               "RelativeToolTip": "Form6.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAIwEAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T12:54:38.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-03T12:54:38.766Z"
             },
             {
               "$type": "Document",
@@ -98,7 +94,7 @@
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Roulette Of Repression\\RouletteOfRepression\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-01-25T16:37:46.951Z",
               "EditorCaption": ""
@@ -113,8 +109,7 @@
               "RelativeToolTip": "Form2.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAwwDkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T13:02:27.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-23T13:02:27.645Z"
             },
             {
               "$type": "Document",
@@ -125,8 +120,7 @@
               "ToolTip": "C:\\Roulette Of Repression\\RouletteOfRepression\\Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T12:56:11.274Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2026-01-23T12:56:11.274Z"
             }
           ]
         }
