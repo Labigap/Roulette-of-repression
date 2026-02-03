@@ -45,10 +45,11 @@
             // 
             // NKOfon
             // 
+            this.NKOfon.Dock = System.Windows.Forms.DockStyle.Fill;
             this.NKOfon.Image = ((System.Drawing.Image)(resources.GetObject("NKOfon.Image")));
             this.NKOfon.Location = new System.Drawing.Point(0, 0);
             this.NKOfon.Name = "NKOfon";
-            this.NKOfon.Size = new System.Drawing.Size(1366, 768);
+            this.NKOfon.Size = new System.Drawing.Size(1350, 729);
             this.NKOfon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.NKOfon.TabIndex = 0;
             this.NKOfon.TabStop = false;

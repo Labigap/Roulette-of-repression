@@ -24,8 +24,9 @@ namespace RouletteOfRepression
 
         private void rknbtn_Click(object sender, EventArgs e)
         {
-            RollRKN = new RKNRoll();
             this.Hide();
+            if (RollRKN == null)
+                RollRKN = new RKNRoll();
             RollRKN.ShowDialog();
         }
 
@@ -33,22 +34,28 @@ namespace RouletteOfRepression
 
         private void arrestBtn_Click(object sender, EventArgs e)
         {
-            RollArrest = new ArrestRoll();
-            this.Hide(); 
+            this.Hide();
+            if (RollArrest == null)
+                RollArrest = new ArrestRoll();
             RollArrest.ShowDialog();
         }
 
         private NKORoll RollNKO;
         private void NKOBtn_Click(object sender, EventArgs e)
         {
-            RollNKO = new NKORoll();
             this.Hide();
+            if (RollNKO == null)
+                RollNKO = new NKORoll();
             RollNKO.ShowDialog();
         }
 
+        private Dop dop;
         private void DopBtn_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            if (dop == null)
+                dop = new Dop();
+            dop.ShowDialog();
         }
     }
 }

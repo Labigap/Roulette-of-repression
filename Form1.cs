@@ -18,7 +18,7 @@ namespace RouletteOfRepression
 
         private Form2 Menu;
 
-        private void accept_CheckedChanged_1(object sender, EventArgs e)
+        private void accept_CheckedChanged(object sender, EventArgs e)
         {
             btnAccept.Enabled = accept.Checked;
         }
@@ -30,16 +30,7 @@ namespace RouletteOfRepression
                 Menu = new Form2();
                 this.Hide();
                 Menu.ShowDialog();
-            }
-        }
-
-        public static class money
-        {
-            private static string Money;
-            public static string moneyr
-            {
-                get { return Money; }
-                set { Money = value; }
+                this.Close();
             }
         }
     }

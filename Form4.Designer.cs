@@ -46,10 +46,11 @@
             // 
             // fonarrest
             // 
+            this.fonarrest.Dock = System.Windows.Forms.DockStyle.Fill;
             this.fonarrest.Image = ((System.Drawing.Image)(resources.GetObject("fonarrest.Image")));
             this.fonarrest.Location = new System.Drawing.Point(0, 0);
             this.fonarrest.Name = "fonarrest";
-            this.fonarrest.Size = new System.Drawing.Size(1366, 768);
+            this.fonarrest.Size = new System.Drawing.Size(1350, 729);
             this.fonarrest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fonarrest.TabIndex = 0;
             this.fonarrest.TabStop = false;

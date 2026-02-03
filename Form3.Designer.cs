@@ -46,10 +46,11 @@
             // 
             // fonrkn
             // 
+            this.fonrkn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.fonrkn.Image = ((System.Drawing.Image)(resources.GetObject("fonrkn.Image")));
             this.fonrkn.Location = new System.Drawing.Point(0, 0);
             this.fonrkn.Name = "fonrkn";
-            this.fonrkn.Size = new System.Drawing.Size(1366, 768);
+            this.fonrkn.Size = new System.Drawing.Size(1350, 729);
             this.fonrkn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fonrkn.TabIndex = 0;
             this.fonrkn.TabStop = false;

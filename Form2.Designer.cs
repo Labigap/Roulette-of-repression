@@ -40,6 +40,9 @@
             // 
             // MenuFon
             // 
+            this.MenuFon.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.MenuFon.Image = ((System.Drawing.Image)(resources.GetObject("MenuFon.Image")));
             this.MenuFon.Location = new System.Drawing.Point(0, 0);
             this.MenuFon.Name = "MenuFon";
