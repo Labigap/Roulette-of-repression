@@ -12,7 +12,7 @@ namespace RouletteOfRepression
         }
 
         private static readonly string[] ArrestListPeople = { "Алексеем Навальным", "Юлией Навальной",  "Евгением Пригожиным",
-            /* Ютуберы */ "MyGap", "Майклом Наки", /* Ютуберы */ /* Депутаты */ "Львом Пономаревым", "Львом Марковичем", 
+            /* Ютуберы */ "MyGap", "Майклом Наки", /* Ютуберы */ /* Депутаты */ "Сергеем Фургал", "Львом Пономаревым", "Львом Марковичем", 
             "Максимом Кругловым", "Ильей Яшиным", "Евгением Боровиком" /* Депутаты */ };
 
         public bool spinmenu = true;
@@ -33,7 +33,8 @@ namespace RouletteOfRepression
         private void MenuExit_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Menu = new Form2();
+            if (Menu ==  null)
+                Menu = new Form2();
             Menu.ShowDialog();
         }
 

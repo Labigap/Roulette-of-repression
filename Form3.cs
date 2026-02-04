@@ -44,7 +44,8 @@ namespace RouletteOfRepression
         private void MenuExit_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Menu = new Form2();
+            if (Menu ==  null)
+                Menu = new Form2();
             Menu.ShowDialog();
         }
 
